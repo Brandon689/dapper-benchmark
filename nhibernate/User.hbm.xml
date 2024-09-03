@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<hibernate-mapping xmlns="urn:nhibernate-mapping-2.2"
+                   assembly="nhibernateOrm"
+                   namespace="nhibernateOrm">
+	<class name="User" table="users">
+		<id name="Id">
+			<generator class="native"/>
+		</id>
+		<property name="Name"/>
+		<property name="Email"/>
+	</class>
+</hibernate-mapping>
